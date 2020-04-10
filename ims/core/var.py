@@ -1,0 +1,17 @@
+# variables
+CSV_PATH = './data/'
+RESULT_PATH = './res/'
+CSV_NAME = 'origin.csv'
+CHECKPOINT_PATH = RESULT_PATH + 'checkpoint/'
+DF_PATH = RESULT_PATH + 'result.pkl'
+
+EPOCH = 1000
+BATCH_SIZE = 30
+PERIOD_SIZE = 20
+STATE_SIZE = 256
+OUTPUT_SIZE = 1
+DROPOUT_PROB = 0.3
+
+FIG_SIZE = (20, 30)
+LABEL_SIZE = 30
+FONT_SIZE = 15
